@@ -127,5 +127,5 @@ elif [[ -d /opt/spack-stack && -d /lustre ]]; then
   # We are on aws-ec2.
   MACHINE_ID=aws-ec2
 else
-  echo WARNING: UNKNOWN PLATFORM 1>&2
+  echo WARNING:hereherherheher UNKNOWN PLATFORM 1>&2
 fi
