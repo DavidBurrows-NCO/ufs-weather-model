@@ -133,6 +133,7 @@ if [[ ${DRY_RUN:-false} == false ]]; then
       module use /ncrc/proj/epic/spack-stack/c7/spack-stack-2.1.1/envs/ue-oneapi-2025.3.1/modules/Core
       module load stack-intel-oneapi-compilers/2025.3.1
       module load stack-cray-mpich/9.2.0
+      module load nccmp/1.11.0.0
       ;;
     *)
       module use modulefiles
